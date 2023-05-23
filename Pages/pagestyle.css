@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lepcha&family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+
+h2{
+    font-family: 'Noto Sans Lepcha', sans-serif ;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../Asset/background_images/back1copy.png);
+    background-color: #e3e6e8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 7.5% 5% 5% 5%;
+}
+
+.left-container{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-container nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40%;
+    align-items: center;
+}
+
+.left-container nav a{
+    margin: 0.7rem 0;
+    font-size: 18px;
+    font-family: 'Noto Sans Lepcha', sans-serif;
+    color: rgba(110, 103, 103, 0.781);
+}
+
+.left-container nav a:hover{
+    color: rgb(110, 103, 103);
+    transition: 0.2s ease-out;
+    font-weight: bold;
+}
+
+.right-container{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.right-container img{
+    width: 42.9375rem;
+    height: 24.0625 rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.right-container video{
+    width: 42.9375rem;
+    height: 24.0625 rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.backtotop{
+    display: flex;
+    padding-top: 7%;
+}
+
+.backtotop a{
+    justify-content: center;
+    align-self: center;
+    text-decoration: none;
+}
+
+.backtotop p{
+    font-family: 'Noto Sans Lepcha', sans-serif;
+    color: rgba(0, 0, 0, 0.397);
+    justify-items: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.backtotop p:hover{
+    color: rgba(0, 0, 0, 0.708);
+    transition: 0.2s ease-out;
+}

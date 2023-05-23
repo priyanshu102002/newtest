@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="back-ground">
+        <div class="full-body">
+            <div class="left-body">
+                <a href="index.html"><h1 class="logo">SUNNY MANDAWI</h1></a>
+                    
+                    <div class="nav">
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+            </div>
+            <div class="right-body">
+                <div class="container">
+                    <div class="card">
+                        <span></span>
+                        <div class="img-bx"><img src="Asset/work/YELLOW HILL/yelagiri.jpg" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <a href="Pages/yellowhill.html"><h2>YELLOW HILL</h2></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <span></span>
+                        <div class="img-bx"><img src="Asset/work/SAPNA/frame0329.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <a href="Pages/Sapna.html"><h2>SAPNA</h2></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <span></span>
+                        <div class="img-bx"><img src="Asset/work/SAPNA/frame0329.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <a href="content.html"><h2>Card Title</h2></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <span></span>
+                        <div class="img-bx"><img src="Asset/work/SAPNA/frame0329.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <a href="content.html"><h2>Card Title</h2></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <span></span>
+                        <div class="img-bx"><img src="Asset/work/SAPNA/frame0329.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <a href="content.html"><h2>Card Title</h2></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <span></span>
+                        <div class="img-bx"><img src="Asset/work/SAPNA/frame0329.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <a href="content.html"><h2>Card Title</h2></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <span></span>
+                        <div class="img-bx"><img src="Asset/work/SAPNA/frame0329.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <a href="content.html"><h2>Card Title</h2></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <span></span>
+                        <div class="img-bx"><img src="Asset/work/SAPNA/frame0329.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <a href="content.html"><h2>Card Title</h2></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <span></span>
+                        <div class="img-bx"><img src="Asset/work/SAPNA/frame0329.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <a href="content.html"><h2>Card Title</h2></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <span></span>
+                        <div class="img-bx"><img src="Asset/work/SAPNA/frame0329.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <a href="content.html"><h2>Card Title</h2></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <span></span>
+                        <div class="img-bx"><img src="Asset/work/SAPNA/frame0329.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <a href="content.html"><h2>Card Title</h2></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="card">
+                        <span></span>
+                        <div class="img-bx"><img src="Asset/work/SAPNA/frame0329.png" alt=""></div>
+                        <div class="content">
+                            <div>
+                                <a href="content.html"><h2>Card Title</h2></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="backtotop">
+                    <a href="#">
+                        <p><i class="fa fa-long-arrow-up" aria-hidden="true"></i> Back to Top</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+    <script>
+        $('.card').on('mouseenter',function(e){
+            x = e.pageX - $(this).offset().left,
+            y = e.pageY - $(this).offset().top;
+            $(this).find('span').css({top:y , left:x})
+        })
+        $('.card').on('mouseout',function(e){
+            x = e.pageX - $(this).offset().left,
+            y = e.pageY - $(this).offset().top;
+            $(this).find('span').css({top:y , left:x})
+        })
+    </script>
+
+</body>
+</html>
